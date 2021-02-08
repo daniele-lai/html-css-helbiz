@@ -85,10 +85,44 @@ body {
   width: 100%;
 }
 
+/* Sezione Prodotti */
+.product {
+  background-color: rgb(250, 250, 250);
+  padding: 96px 0 32px 0;
+  margin: 30px;
+}
+
+.product_name {
+  max-height: 20px;
+  width: auto;
+}
+
+.product h2, a {
+  font-size: 20px;
+  display: block;
+}
+
+.product h2 {
+  margin: 32px 0;
+}
+
+.product_img {
+  margin-top: 40px;
+  width: 100%
+}
+
+#moped {
+  max-height: 249px;
+}
+
 /* Responsive */
 @media screen and (max-width: 992px) {
   .hero h1 {
     font-size: 84px;
+  }
+
+  .product_img {
+    max-height: 300px;
   }
 }
 

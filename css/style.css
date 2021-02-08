@@ -1,3 +1,71 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Navbar */
+.logo img {
+  height: 12px;
+}
+
+.menu nav {
+  display: inline-block;
+}
+
+.nav_bar_1 li a, .lang a {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav_bar_1 li a {
+  padding: 8px 14px;
+}
+
+.nav_bar_2 {
+  margin-left: 20px;
+}
+
+.logo, .menu {
+  margin-top: 20px;
+}
+
+.navbar_fixed {
+  position: static;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+/* Buttons */
+.lang {
+  background-color: transparent;
+  border-left: 1px solid rgb(155, 155, 155);
+  border-right: 1px solid rgb(155, 155, 155);
+  padding: 0 10px;
+}
+
+.login {
+  background-color: #000;
+  color: #fff;
+  font: 14px;
+  font-weight: 600;
+  padding: 8px 24px;
+  margin-left: 16px;
+}

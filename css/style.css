@@ -46,11 +46,12 @@ body {
 }
 
 .navbar_fixed {
-  position: static;
+  position: fixed;
   left: 0;
   top: 0;
   right: 0;
   z-index: 2;
+  background-color: #fff;
 }
 
 /* Buttons */
@@ -68,4 +69,18 @@ body {
   font-weight: 600;
   padding: 8px 24px;
   margin-left: 16px;
+}
+
+/* Jumbotron */
+.hero {
+  background-color: #fff;
+}
+
+.hero h1 {
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.hero img {
+  width: 100%;
 }

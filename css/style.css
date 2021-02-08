@@ -77,10 +77,23 @@ body {
 }
 
 .hero h1 {
-  font-size: 120px;
+  font-size: 97px;
   font-weight: 600;
 }
 
 .hero img {
   width: 100%;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+  .hero h1 {
+    font-size: 84px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 60px;
+  }
 }
